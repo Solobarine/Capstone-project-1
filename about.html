@@ -4,14 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="about.css" type="text/css" media="all" />
     <title>About Page</title>
 </head>
-<body>
+<body class="body">
+  <header id="header">
+        <div class="so-container">
+        <div class="socials">
+            <img id="facebook" src="./images/socials/facebook.svg" alt="Facebook Handle.">
+            <img id="twitter" src="./images/socials/twitter.svg" alt="Twitter Handle.">
+            <ul class="nav-list">
+                <li id="top-1">English</li>
+                <li id="top-2">My Page</li>
+                <li id="top-3">Logout</li>
+            </ul>
+            </div>
+            </div>
+  <nav class="a-nav">
+     <img id="ham-menu" src="./images/ham.png" alt="Hamburger Menu" />
+     <img id="a-logo" src="./images/nba-logos/nba-logo.svg" alt="Logo">
+     <div id="this-menu">
+     <img id="a-exit" src="./images/close-button.png" alt="Exit Menu" />
+     <ul id="nav-menu">
+        <li id="home"><a class="link" href="index.html">Home</a></li>
+        <li id="menu-1"><a class="link" href="about.html">About</a></li>
+        <li id="menu-2">Program</li>
+        <li id="menu-3">Join</li>
+        <li id="menu-4">Sponsor</li>
+        <li id="menu-5">News</li>
+        <li id="menu-6">Others</li>
+      </ul>
+      </div>
+  </nav>
+  </header>
     <section id="about">
     <h1 class="about-title">THIS IS THE NBA FINALS 2023</h1>
     <p id="about-text">The NBA Finals is the annual Championship series of the National Basketball Association(NBA). The Eastern and Western confernce Champions play a best-of-seven game series to determine the league Champion.The team that wins the series is awarded the Larry O'Brien Championship Trophy.
-    <p class="contact">Please Contact Us per Email for any questions you may have about the NBA<br id="web-link"><a href="https//:www.nba.com">NBA.com</a></p>
+    <p class="contact">Please Contact Us per Email for any questions you may have about the NBA<br id="web-link"><a class="ref" href="https//:www.nba.com">NBA.com</a></p>
     </section>
     <section id="logo-section">
         <h3 class="logo-head">NBA LOGO</h3>
@@ -22,16 +53,22 @@
         <h4 class="prev-text">See the past NBA Finals</h4>
         <p id="prev-sum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id</p>
         <div id="finals">
-            <img id="2021" src="./images/arena/nba-arena.jpeg" alt="2021 NBA Finals">
-            <img id="2020" src="./images/arena/td-garden.png" alt="2020 NBA Finals">
+          <div class="div-1">
+            <img id="first" src="./images/arena/nba-arena.jpeg" alt="2021 NBA Finals">
+            <p class="text-1">2021 NBA Finals</p>
+          </div>
+            <div class="div-2">
+            <img id="second" src="./images/arena/td-garden.png" alt="2020 NBA Finals">
+            <p class="text-2">2020 NBA Finals</p>
+            </div>
         </div>
     </section>
-        <section>
-        <h3>Partners</h3>
+        <section class="sponsors">
+        <h3 id="partneer">Partners</h3>
         <div id="partners-logo">
             <img class="partner partner-1" src="./images/sponsors/google.svg" alt="Google">
             <img class="partner partner-2" src="./images/sponsors/daumkakao.svg" alt="Daumkakao">
-            <img class="partner partner-3" src="./images/sponsors/dell.svg" alt="Dell">
+            <img class="partner partner-3" src="./images/sponsors/dell.jpg" alt="Dell">
             <img class="partner partner-4" src="./images/sponsors/state-farm.svg" alt="State Farm">
             <img class="partner partner-5" src="./images/sponsors/mozilla.svg" alt="Mozilla">
             <img class="partner partner-6" src="./images/sponsors/airbnb.svg" alt="Gatorade">
@@ -39,7 +76,8 @@
     </section>
     <footer id="a-footer">
         <img class="foot-logo" src="./images/nba-logos/nba-icon.svg" alt="Nba logo">
-        <p class="copyright">2023 National Basketball Association. All Rights Reserved.</p>
+        <p class="copyright">&copy; 2023 National Basketball Association. All Rights Reserved.</p>
     </footer>
+    <script src="about.js"></script>
 </body>
 </html>

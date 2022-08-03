@@ -2,7 +2,7 @@
 const nav = document.querySelector('#nav-bar');
 const hamburger = document.querySelector('#ham-menu');
 const exit = document.querySelector('#exit');
-const menu = document.querySelector('#menu');
+const menu = document.querySelector('#my-menu');
 const about = document.querySelector('#menu-1');
 const program = document.querySelector('#menu-2');
 const join = document.querySelector('#menu-3');
@@ -17,6 +17,7 @@ function closeMenu() {
   exit.style.display = 'none';
   about.style.display = 'none';
   menu.style.display = 'none';
+  menu.style.remove('menu');
   program.style.display = 'none';
   join.style.display = 'none';
   sponsor.style.display = 'none';
@@ -29,7 +30,7 @@ function showMenu() {
   hamburger.style.display = 'none';
   exit.style.display = 'block';
   menu.style.display = 'block';
-  menu.classList.add('pop-menu');
+  menu.classList.add('menu');
   about.style.display = 'block';
   program.style.display = 'block';
   join.style.display = 'block';
@@ -54,6 +55,7 @@ const playerDetails = [
     Team: 'Dallas Mavericks',
     Position: 'PG',
     Bio: 'Nicknamed "El Matador", He will dominate you with his power, athlecism and insane court vision.',
+    class: 'star-1',
 },
 {
     Picture: './images/stars/giannis.png',
@@ -61,6 +63,7 @@ const playerDetails = [
     Team: 'Milwaukee Bucks',
     Position: 'SF',
     Bio: 'Called the Greek Freak, he is a force to be reckoned with in the NBA.',
+    class: 'star-2'
 },
 {
     Picture: './images/stars/curry.jpeg',
@@ -68,6 +71,7 @@ const playerDetails = [
     Team: 'Golden State Warriors',
     Position: 'PG',
     Bio: 'This Guy will hurt you from anywhere and you cannot do anything about it. He is the all-time leader in three points made.',
+    class: 'star-3',
 },
 {
     Picture: './images/stars/lebron.png',
@@ -75,6 +79,7 @@ const playerDetails = [
     Team: 'LA Lakers',
     Position: 'SF',
     Bio: 'Regarded by some as the Greatest of all Time, LeBron is not one you mess with. He is King James.',
+    class: 'star-4',
 },
 {
     Picture: './images/stars/jokic.png',
@@ -82,6 +87,7 @@ const playerDetails = [
     Team: 'Denver Nuggets',
     Position: 'C',
     Bio: 'Called the Joker, do not let his tricks foll you. When he means business, he means business.',
+    class: 'star-5',
 },
 {
     Picture: './images/stars/tatum.png',
@@ -89,6 +95,7 @@ const playerDetails = [
     Team: 'Boston CCeltics',
     Position: 'SF',
     Bio: 'This Guy is amazing at what he does. He can drop points however he likes.',
+    class: 'star-6'
 },
 ]
 
@@ -97,11 +104,12 @@ function fillPlayer() {
   for(let i = 0;i < playerDetails.length;i++){
     const container = document.createElement('div');
     container.className = 'container';
+    container.setAttribute('id', playerDetails[i].class);
     const picture = document.createElement('img');
     picture.className = 'star-img';
     picture.setAttribute('src', playerDetails[i].Picture);
     const starBio = document.createElement('div');
-    starBio.className = 'star-bio'
+    starBio.className = 'star-bio';
     const name = document.createElement('h3');
     name.className = 'star-name';
     name.innerHTML = playerDetails[i].Name;
