@@ -96,10 +96,10 @@ const playerDetails = [
     Position: 'SF',
     Bio: 'This Guy is amazing at what he does. He can drop points however he likes.',
     class: 'star-6',
-}];
+  }];
 
 // Create Function to Populate the Section
-function fillPlayer() {
+function fillPlayer() { /* eslint-disable-next-line */ 
   for (let i = 0; i < playerDetails.length; i++) {
     const container = document.createElement('div');
     container.className = 'container';

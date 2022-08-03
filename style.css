@@ -61,7 +61,7 @@
   color: #ca0c0c;
   margin-top: 20px;
   margin-left: 15px;
-} 
+}
 
 .wel-title {
   font-family: 'Lato', sans-serif;
@@ -316,7 +316,7 @@
 
 #main-footer {
   display: grid;
-  grid-template-columns:20% 80%;
+  grid-template-columns: 20% 80%;
   grid-template-rows: 50px;
   background: #6f6b67;
 }
@@ -349,7 +349,7 @@
   #logo,
   #my-menu {
     display: block;
-}
+  }
 
   #ham-menu {
     display: none;
@@ -363,8 +363,8 @@
 
   .socials {
     width: 320px;
-    display: grid;/*disable-stylelint-next-line*/
-    grid-template-columns: 60px, 60px, 200px;
+    display: grid;
+    grid-template-columns: 60px 60px 200px;
     grid-template-rows: 40px;
     margin-left: 60%;
   }
@@ -391,7 +391,7 @@
   .nav-list > li {
     padding: 8px;
   }
-  
+
   #nav-bar {
     display: flex;
     flex-direction: row;
@@ -522,9 +522,9 @@
   }
 
   .players {
-    display: grid;/*disable-stylelint-next-line*/
-    grid-auto-columns: auto, auto;/*disable-stylelint-next-line*/
-    grid-template-rows: 150px, 150px, 150px;
+    display: grid;
+    grid-auto-columns: auto, auto;
+    grid-template-rows: 150px 150px 150px;
   }
 
   .container {
