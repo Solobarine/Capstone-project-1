@@ -56,52 +56,51 @@ const playerDetails = [
     Position: 'PG',
     Bio: 'Nicknamed "El Matador", He will dominate you with his power, athlecism and insane court vision.',
     class: 'star-1',
-},
-{
+  },
+  {
     Picture: './images/stars/giannis.png',
     Name: 'Giannis Antetokounpo',
     Team: 'Milwaukee Bucks',
     Position: 'SF',
     Bio: 'Called the Greek Freak, he is a force to be reckoned with in the NBA.',
-    class: 'star-2'
-},
-{
+    class: 'star-2',
+  },
+  {
     Picture: './images/stars/curry.jpeg',
     Name: 'Steph Curry',
     Team: 'Golden State Warriors',
     Position: 'PG',
     Bio: 'This Guy will hurt you from anywhere and you cannot do anything about it. He is the all-time leader in three points made.',
     class: 'star-3',
-},
-{
+  },
+  {
     Picture: './images/stars/lebron.png',
     Name: 'LeBron James',
     Team: 'LA Lakers',
     Position: 'SF',
     Bio: 'Regarded by some as the Greatest of all Time, LeBron is not one you mess with. He is King James.',
     class: 'star-4',
-},
-{
+  },
+  {
     Picture: './images/stars/jokic.png',
     Name: 'Nikola Jokic',
     Team: 'Denver Nuggets',
     Position: 'C',
     Bio: 'Called the Joker, do not let his tricks foll you. When he means business, he means business.',
     class: 'star-5',
-},
-{
+  },
+  {
     Picture: './images/stars/tatum.png',
     Name: 'Jayson Tatum',
     Team: 'Boston CCeltics',
     Position: 'SF',
     Bio: 'This Guy is amazing at what he does. He can drop points however he likes.',
-    class: 'star-6'
-},
-]
+    class: 'star-6',
+}];
 
 // Create Function to Populate the Section
 function fillPlayer() {
-  for(let i = 0;i < playerDetails.length;i++){
+  for (let i = 0; i < playerDetails.length; i++) {
     const container = document.createElement('div');
     container.className = 'container';
     container.setAttribute('id', playerDetails[i].class);
@@ -122,17 +121,16 @@ function fillPlayer() {
     const bio = document.createElement('p');
     bio.className = 'bio';
     bio.innerHTML = playerDetails[i].Bio;
-    
+
     // Append name, position and bio to starBio
     starBio.appendChild(name);
-    starBio.appendChild(team)
+    starBio.appendChild(team);
     starBio.appendChild(position);
     starBio.appendChild(bio);
     // Append Elements to Container
     container.appendChild(picture);
     container.appendChild(starBio);
-   
-    
+
     // Append Container to Players
     players.appendChild(container);
   }
@@ -140,4 +138,3 @@ function fillPlayer() {
 
 // Call the Function
 fillPlayer();
-
