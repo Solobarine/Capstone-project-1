@@ -11,7 +11,10 @@
   background: #ebe5c9;
 }
 
-#a-logo, #a-exit, #nav-menu, .so-container {
+#a-logo,
+#a-exit,
+#nav-menu,
+.so-container {
   display: none;
 }
 
@@ -57,21 +60,21 @@
 }
 
 #about-text {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 20px;
-   font-weight: 500;
-   line-height: 32px;
-   text-align: center;
-   color: #755c5c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  color: #755c5c;
 }
 
 .contact {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 15px;
-   font-weight: 400;
-   line-height: 24px;
-   color: #755c5c;
-   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #755c5c;
+  text-align: center;
 }
 
 .ref {
@@ -130,17 +133,18 @@
   justify-content: space-between;
 }
 
-.div-1, div-2 {
+.div-1,
+.div-2 {
   position: relative;
-  
 }
 
-.text-1, .text-2 {
+.text-1,
+.text-2 {
   color: #000;
   text-align: center;
   padding: 0;
-  
 }
+
 #first {
   width: 100%;
   height: 100%;
@@ -159,7 +163,7 @@
 }
 
 #partners-logo {
-  display: grid;
+  display: grid;/*disable-stylelint-next-line*/
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: repeat(2, 50px);
   grid-gap: 10px;
@@ -222,9 +226,10 @@
   .body {
     width: 100vw;
   }
-  
-  #a-logo, #nav-menu {
-  display: block;
+
+  #a-logo,
+  #nav-menu {
+    display: block;
   }
 
   #ham-menu {
@@ -236,21 +241,21 @@
     flex-direction: row;
     background: #6f6b67;
   }
-  
+
   .socials {
     width: 320px;
-    display: grid;
+    display: grid;/*disable-stylelint-nextline*/
     grid-template-columns: 60px, 60px, 200px;
     grid-template-rows: 30px;
     margin-left: 65%;
   }
-  
+
   #facebook {
     grid-area: 1/1/span 1/span 1;
     width: 100%;
     height: 100%;
   }
-  
+
   #twitter {
     grid-area: 1/2/span 1/span 1;
     width: 100%;
@@ -266,23 +271,23 @@
     padding: -2px;
     color: #fff;
   }
-  
+
   .nav-list > li {
     padding: 8px;
   }
-  
+
   .a-nav {
     display: flex;
     flex-direction: row;
     height: 60px;
     background: #be8b5d;
   }
-  
+
   #a-logo {
     padding-top: 8px;
     margin-left: 20%;
   }
-  
+
   #nav-menu {
     color: #fff;
     margin-left: 48%;
@@ -293,73 +298,74 @@
     margin-bottom: 10px;
     margin-top: 8px;
   }
-  
+
   #nav-menu > li {
     padding: 10px;
     text-align: center;
   }
-  
+
   #menu-6 {
     border: 2px solid #434db5;
   }
-  
+
   #about {
     padding: 30px 10%;
   }
-  
+
   .about-title {
     font-size: 48px;
   }
-  
+
   #about-text {
     font-size: 32px;
   }
-  
+
   .contact {
     font-size: 18px;
   }
-  
+
   .logo-head {
     font-size: 40px;
   }
-  
+
   #logo-section {
     padding: 20px 20% 20px 20%;
   }
-  
+
   .logo-text {
     font-size: 26px;
   }
-  
+
   #logo-img {
     width: 40%;
   }
-  
+
   #prev-finals {
     display: block;
   }
-  
+
   .prev-text {
     font-size: 44px;
     padding: 0%;
   }
-  
+
   #prev-sum {
     font-size: 26px;
   }
-  
+
   #finals {
-   display: grid;
-   grid-template-columns: 300px, 300px;
-   padding: 5%;
+    display: grid;
+    grid-template-columns: 300px, 300px;
+    padding: 5%;
   }
-  
+
   .div-1 {
     grid-area: 1/1/span 1/span 1;
     position: relative;
   }
-  
-  .text-1, .text-2 {
+
+  .text-1,
+  .text-2 {
     color: #12ff00;
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
@@ -370,24 +376,24 @@
     text-align: center;
     left: 20%;
   }
-  
+
   .div-2 {
     grid-area: 1/2/span 1/span 1;
     position: relative;
   }
-  
-  sponsors {
-    background: url('./images/abst.jpeg');
+
+  #sponsors {
+    background: url('./images/abstr.jpeg');
     background-size: 100%;
   }
-  
+
   #partneer {
     text-align: center;
     font-size: 30px;
     color: #fff;
     padding-top: 25px;
   }
-  
+
   #partners-logo {
     display: flex;
     flex-direction: row;
@@ -395,21 +401,22 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .partner {
     width: auto;
     height: 30px;
     margin: 20px;
   }
-  
+
   #a-footer {
     height: 150px;
   }
+  
   .foot-logo {
     padding: 10px;
     margin-left: 10%;
   }
-  
+
   .copyright {
     font-size: 22px;
   }
