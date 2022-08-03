@@ -99,7 +99,7 @@ const playerDetails = [
   }];
 
 // Create Function to Populate the Section
-function fillPlayer() { /* eslint-disable-next-line */ 
+function fillPlayer() { /* eslint-disable-next-line */
   for (let i = 0; i < playerDetails.length; i++) {
     const container = document.createElement('div');
     container.className = 'container';

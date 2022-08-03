@@ -523,7 +523,7 @@
 
   .players {
     display: grid;
-    grid-auto-columns: auto, auto;
+    grid-auto-columns: auto auto;
     grid-template-rows: 150px 150px 150px;
   }
 
