@@ -354,9 +354,13 @@
   }
 
   #finals {
-    display: grid;
-    grid-template-columns: 300px 300px;
+   /* display: grid;*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    grid-template-columns: auto auto;
     padding: 5%;
+    margin: 0;
   }
 
   .div-1 {
