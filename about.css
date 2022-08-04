@@ -354,10 +354,7 @@
   }
 
   #finals {
-   /* display: grid;*/
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+    display: grid;
     grid-template-columns: auto auto;
     padding: 5%;
     margin: 0;
