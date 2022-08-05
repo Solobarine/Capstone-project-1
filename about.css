@@ -249,7 +249,7 @@
     display: grid;
     grid-template-columns: 40px 40px 200px;
     grid-template-rows: 20px;
-    margin-left: 65%;
+    margin-left: 59%;
   }
 
   #facebook {
@@ -297,17 +297,17 @@
 
   #nav-menu {
     color: #fff;
-    margin-left: 63%;
+    margin-left: 40%;
     list-style: none;
     display: flex;
     flex-direction: row;
-    width: auto;
     margin-bottom: 10px;
     margin-top: 1px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 14px;
+    min-width: 700px;
   }
 
   #nav-menu > li {
@@ -368,6 +368,7 @@
     display: grid;
     grid-template-columns: 300px 300px;
     padding: 5%;
+    justify-content: space-around;
   }
 
   .div-1 {

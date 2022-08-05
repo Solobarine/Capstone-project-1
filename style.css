@@ -249,16 +249,20 @@
 
 .team {
   font-family: 'Montserrat', sans-serif;
+  font-style: italic;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
+  color: #f00;
 }
 
 .position {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  font-style: italic;
   font-weight: 500;
   line-height: 14px;
+  color: #f00;
 }
 
 .bio {
@@ -368,7 +372,7 @@
   }
 
   .socials {
-    width: 320px;
+    width: 370px;
     display: grid;
     grid-template-columns: 40px 40px 200px;
     grid-template-rows: 20px;
@@ -406,7 +410,7 @@
   #nav-bar {
     display: flex;
     flex-direction: row;
-    height: 35px;
+    height: 45px;
     background: #be8b5d;
     margin: 0;
     padding: 0;
@@ -418,17 +422,17 @@
   }
 
   #my-menu {
-    margin-left: 28%;
+    margin-left: 18%;
     list-style: none;
     display: flex;
     flex-direction: row;
-    width: auto;
     margin-top: 1px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 14px;
     color: #fff;
+    min-width: 700px;
   }
 
   #my-menu > li {
@@ -448,15 +452,16 @@
   }
 
   .wel-title {
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 84px;
   }
 
   #paragraph {
-    font-size: 35px;
+    font-size: 16px;
   }
 
   #date {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   #venue {
