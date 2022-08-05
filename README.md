@@ -42,6 +42,10 @@
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/solobarine/Capstone-project-1/issues).
+## Loom Video Link
+Here is the link to the demo video on Loom
+
+[Loom Video](https://www.loom.com/share/528002362fc0418b9a4ef6fa73549dc9)
 
 ## Show your support
 
