@@ -23,7 +23,6 @@
   height: 10%;
   margin-left: 80%;
   padding-top: 10%;
-  
 }
 
 .pop-menu {
@@ -40,11 +39,7 @@
   line-height: 44px;
   text-align: center;
   color: brown;
-  height: 120vh;
-}
-
-#this-menu {
-  margin-top: -25px;
+  height: 110vh;
 }
 
 .link {
@@ -231,7 +226,7 @@
 
 @media only screen and (min-width: 769px) {
   .body {
-    width: 100vw;
+    width: 99vw;
   }
 
   #a-logo,
@@ -252,8 +247,8 @@
   .socials {
     width: 320px;
     display: grid;
-    grid-template-columns: 60px 60px 200px;
-    grid-template-rows: 30px;
+    grid-template-columns: 40px 40px 200px;
+    grid-template-rows: 20px;
     margin-left: 65%;
   }
 
@@ -277,33 +272,42 @@
     margin: -2px;
     padding: -2px;
     color: #fff;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 400;
   }
 
   .nav-list > li {
-    padding: 8px;
+    padding: 6px;
   }
 
   .a-nav {
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 35px;
     background: #be8b5d;
   }
 
   #a-logo {
-    padding-top: 8px;
-    margin-left: 20%;
+    padding: 6px;
+    margin-left: 10%;
   }
 
   #nav-menu {
     color: #fff;
-    margin-left: 48%;
+    margin-left: 63%;
     list-style: none;
     display: flex;
     flex-direction: row;
     width: auto;
     margin-bottom: 10px;
-    margin-top: 8px;
+    margin-top: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
   }
 
   #nav-menu > li {
@@ -362,9 +366,8 @@
 
   #finals {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 300px 300px;
     padding: 5%;
-    margin: 0;
   }
 
   .div-1 {
