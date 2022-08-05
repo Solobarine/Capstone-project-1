@@ -45,7 +45,7 @@ exit.addEventListener('click', closeMenu);
 // Select Players Section
 const players = document.querySelector('.players');
 const body = document.querySelector('.body');
-body.style.backgroundColor = '#ebe5c9';
+body.style.backgroundColor = '#fff';
 
 // Create Content for Players Section
 const playerDetails = [

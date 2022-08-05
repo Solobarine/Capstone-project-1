@@ -84,10 +84,10 @@
 
 #paragraph {
   font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 32px;
-  color: #f00;
+  line-height: 24px;
+  color: #000;
   margin-left: 15px;
   margin-top: 20px;
 }
@@ -376,7 +376,7 @@
     display: grid;
     grid-template-columns: 40px 40px 200px;
     grid-template-rows: 20px;
-    margin-left: 70%;
+    margin-left: 73%;
   }
 
   #facebook {
@@ -422,7 +422,7 @@
   }
 
   #my-menu {
-    margin-left: 18%;
+    margin-left: 24%;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -547,30 +547,32 @@
     display: grid;
     grid-auto-columns: auto auto;
     grid-template-rows: 150px 150px 150px;
+    padding: 10%;
   }
 
   .container {
-    width: 550px;
-    height: 150px;
+    max-width: 500px;
+    min-height: 150px;
   }
 
   .star-name {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 700;
   }
 
   .position {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 10px;
+    line-height: 15px;
   }
 
   .team {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 10px;
+    line-height: 15px;
   }
 
   .bio {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
   }
 
