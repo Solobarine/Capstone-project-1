@@ -29,6 +29,14 @@
 
 [Click Here](https://solobarine.github.io/)
 
+## Screenshots
+Below are some Screenshots of the projects:
+<img src="./screenshots/cap-1.png" width="300px">
+<img src="./screenshots/cap-2.png" width="300px">
+<img src="./screenshots/cap-4.png" width="300px">
+<img src="./screenshots/cap-5.png" width="300px">
+
+
 ## Author
 
 👤 **Akpuru Solomon Barine**
