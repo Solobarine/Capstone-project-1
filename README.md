@@ -27,7 +27,7 @@
 
 ### Deployment
 
-[Click Here](https://solobarine.github.io/Capstone-project-1/)
+[Click Here](https://solobarine.github.io/)
 
 ## Author
 

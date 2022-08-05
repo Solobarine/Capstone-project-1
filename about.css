@@ -21,7 +21,9 @@
 #a-exit {
   width: 10%;
   height: 10%;
-  margin-left: 90%;
+  margin-left: 80%;
+  padding-top: 10%;
+  
 }
 
 .pop-menu {
@@ -38,6 +40,11 @@
   line-height: 44px;
   text-align: center;
   color: brown;
+  height: 120vh;
+}
+
+#this-menu {
+  margin-top: -25px;
 }
 
 .link {
