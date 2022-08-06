@@ -411,7 +411,7 @@
     display: flex;
     flex-direction: row;
     height: 45px;
-    background: #be8b5d;
+    background: #fff;
     margin: 0;
     padding: 0;
   }
@@ -422,7 +422,7 @@
   }
 
   #my-menu {
-    margin-left: 24%;
+    margin-left: 12%;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -431,41 +431,47 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 14px;
-    color: #fff;
+    justify-content: space-around;
+    color: #000;
     min-width: 700px;
   }
 
   #my-menu > li {
     padding: 10px;
+    color: #000;
   }
 
   #menu-6 {
-    border: 2px solid #434db5;
+    border: 2px solid #f00;
   }
 
   #welcome {
-    padding: 60px;
+    padding: 5% 15% 5% 15%;
   }
 
   #sub-text {
     font-size: 28px;
+
   }
 
   .wel-title {
     font-size: 70px;
     line-height: 84px;
+    max-width: 800px;
   }
 
   #paragraph {
     font-size: 16px;
+    margin-bottom: 8%;
   }
 
   #date {
     font-size: 40px;
+    font-weight: 700;
   }
 
   #venue {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   #events {
@@ -547,7 +553,7 @@
     display: grid;
     grid-auto-columns: auto auto;
     grid-template-rows: 150px 150px 150px;
-    padding: 10%;
+    padding: 15%;
   }
 
   .container {

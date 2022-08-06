@@ -8,7 +8,7 @@
 }
 
 .a-nav {
-  background: #ebe5c9;
+  background: #fff;
 }
 
 #a-logo,
@@ -245,7 +245,7 @@
   }
 
   .socials {
-    width: 320px;
+    width: 370px;
     display: grid;
     grid-template-columns: 40px 40px 200px;
     grid-template-rows: 20px;
@@ -274,20 +274,20 @@
     color: #fff;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 12px;
     font-weight: 400;
   }
 
   .nav-list > li {
-    padding: 6px;
+    padding: 4px;
   }
 
   .a-nav {
     display: flex;
     flex-direction: row;
-    height: 35px;
-    background: #be8b5d;
+    height: 40px;
+    background: #fff;
   }
 
   #a-logo {
@@ -296,8 +296,8 @@
   }
 
   #nav-menu {
-    color: #fff;
-    margin-left: 70%;
+    color: #000;
+    margin-left: 58%;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -307,7 +307,8 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 14px;
-    min-width: 700px;
+    min-width: 600px;
+    justify-content: space-around;
   }
 
   #nav-menu > li {
@@ -316,7 +317,7 @@
   }
 
   #menu-6 {
-    border: 2px solid #434db5;
+    border: 2px solid #f00;
   }
 
   #about {
